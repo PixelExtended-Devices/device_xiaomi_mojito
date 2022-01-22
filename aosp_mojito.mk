@@ -16,6 +16,7 @@ PEX_BUILD_TYPE := OFFICIAL
 PEX_MAINTAINER := ArhamDharewa
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 $(call inherit-product, vendor/miuicamera/config.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
